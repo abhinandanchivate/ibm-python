@@ -122,29 +122,3 @@ CREATE TABLE Role (
 ### Summary
 This case study now includes detailed database structure definitions for each entity. Let me know if you need more additions or improvements.
 
-## Employee Management System - Case Study
-
-### Overview
-This case study focuses on building an Employee Management System using **FastAPI** as the backend and **Angular** as the frontend. The system will include five entities, each with at least five attributes. This project will demonstrate CRUD operations, relationships between entities, JWT authentication, and role-based access control (RBAC).
-
-### Technologies Used
-- **Backend:** FastAPI (Python), SQLAlchemy, PostgreSQL
-- **Frontend:** Angular 18
-- **Database:** PostgreSQL
-- **Authentication:** JWT (JSON Web Tokens)
-- **Deployment:** Docker, Nginx
-
-### Entity Relationship Diagram (ERD)
-
-1. **Employee - Department:** One-to-Many (One department can have many employees, but an employee belongs to one department.)
-2. **Employee - Role:** One-to-Many (One role can be assigned to many employees, but an employee has only one role.)
-3. **Employee - Attendance:** One-to-Many (An employee can have multiple attendance entries.)
-4. **Department - Project:** One-to-Many (One department can have multiple projects, but a project belongs to one department.)
-
-### PostgreSQL Database Diagram
-
-![PostgreSQL Database Diagram](sandbox:/mnt/data/postgresql_db_diagram.png)
-
-### Summary
-This case study includes a diagrammatic representation of the relationships between the entities.
-
